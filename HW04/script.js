@@ -46,21 +46,6 @@ const getMarks = (students, marks) => {
     return studentsMarks;
 }
 
-/*
-const getAllMarks = (groups) => {
-
-    let result = [];
-    
-    
-    for(let i = 0; i < groups.length; i++){
-        let randomMark  = Math.floor(Math.random() * 5)
-        let currentGroup = groups[i];
-        result[i] = [currentGroup, randomMark]
-    }
-
-    return result
-}*/
-
 
 const getAllMarks = (groups) => {
 
