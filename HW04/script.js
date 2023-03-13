@@ -46,7 +46,7 @@ const getMarks = (students, marks) => {
     return studentsMarks;
 }
 
-
+/*
 const getAllMarks = (groups) => {
 
     let result = [];
@@ -59,8 +59,22 @@ const getAllMarks = (groups) => {
     }
 
     return result
-}
+}*/
 
+
+const getAllMarks = (groups) => {
+
+    let result = [];
+    
+    
+  for(let group of groups){
+    let randomMark  = Math.floor(Math.random() * 5);
+    group.push(randomMark);
+    result.push(group)
+  }
+
+    return result
+}
 
 console.log(addTask(makePairs(students), themes));
 console.log(getMarks(students, marks))
