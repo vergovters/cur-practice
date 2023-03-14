@@ -11,10 +11,10 @@ const makePairs = (students) => {
     let boys = [];
     let girls = [];
     students.forEach(student => {
-        if(student === "Олександр"  || student  === "Ігор" || student === "Олексій") {
-            boys.push(student);
+        if(student.endsWith("а")  || student.endsWith("я")) {
+            girls.push(student);
         }else {
-            girls.push(student)
+            boys.push(student)
         }
     }) 
         
