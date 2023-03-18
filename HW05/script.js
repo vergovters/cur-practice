@@ -92,6 +92,7 @@ const divideByThree = (word) => {
         for(let i = 0; i<word.length; i++){
             arr.slice(3)
         }
+        
         return result
     }
 }*/
