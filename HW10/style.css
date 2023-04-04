@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    background-image: url("/HW10/src/images/1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 970px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.button {
+    
+    align-items: center;
+    background-color: #008000;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+  }
