@@ -4,7 +4,7 @@
 }
 
 #wrapper {
-    background-image: url("/src/images/image.jpg");
+    background-image: url("./src/images/image.jpg");
     background-size: cover;
     background-position: center;
     height: 970px;
