@@ -2,12 +2,12 @@ document.addEventListener("DOMContentLoaded", ()=> {
     let elem = document.querySelector("#wrapper")
 
     const sounds = {
-        'a': new Audio('/HW10/src/sounds/sound1.mp3'),
-        's': new Audio('/HW10/src/sounds/sound2.mp3'),
-        'd': new Audio('/HW10/src/sounds/sound3.mp3'),
-        'f': new Audio('/HW10/src/sounds/sound4.mp3'),
-        'g': new Audio('/HW10/src/sounds/sound5.mp3'),
-        'h': new Audio('/HW10/src/sounds/sound6.mp3'),
+        'a': new Audio('/HW10/src/sounds/sound1.wav'),
+        's': new Audio('/HW10/src/sounds/sound2.wav'),
+        'd': new Audio('/HW10/src/sounds/sound3.wav'),
+        'f': new Audio('/HW10/src/sounds/sound4.wav'),
+        'g': new Audio('/HW10/src/sounds/sound5.wav'),
+        'h': new Audio('/HW10/src/sounds/sound6.wav'),
     };
       
     function generate(obj){
