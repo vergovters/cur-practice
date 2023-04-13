@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color:  #16151a;
+  }
+ 
+  header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  header > a {
+    float: right;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+  }
+
+  .hero {
+    background-image: url('./src/other/star-wars-backgrounds.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    padding-top: 200px;
+  }
+
+  .hero h2 {
+    font-size: 80px;
+    -webkit-text-stroke: 1px yellow;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 900;
+  }
+  
+  .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+  }
+
+  .title {
+    color: white;
+  }
+
+
+  #generate > img, .chapter {
+    height: 20px;
+  }
+
+  #main {
+    display: grid;
+    grid-template-columns: repeat(4, 350px);
+    grid-column-gap: 40px;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .border {
+    border: 1px solid white;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 30px;
+  }
+
+  .border > img {
+    width: 300;
+    max-height: 320px;
+    border-radius: 10px;
+    justify-self: center;
+  }
+
+  .planetButton {
+    width: 70%;
+    height: 70px;
+    border: solid 2px yellow;
+    color: yellow;
+    background-color: #16151a;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    margin-top: 50px;
+    font-size: 25px;
+  }
+
+  .planetButton > a {
+    color: yellow;
+    text-decoration: none;
+  }
+
+  footer {
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+
+  footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+  .wrapper {
+    background-color:  #16151a;
+  }
