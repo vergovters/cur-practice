@@ -5,7 +5,7 @@ const Orange = 90.2345;
 
 
 const maxPrice = Math.max(Banana, Apple, Orange);
-const minPrice = Math.min(Banana, Apple, Orange);
+export const minPrice = Math.min(Banana, Apple, Orange);
 
 
 const sum = Banana + Apple + Orange;
